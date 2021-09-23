@@ -23,7 +23,7 @@ same = True
 n = 2.5
 
 # Adding a background image
-background_image = Image.open('C:\\Users\\91942\\OneDrive\\Desktop\\library.jpg')
+background_image = Image.open('img//library.jpg')
 [imageSizeWidth, imageSizeHeight] = background_image.size
 
 newImageSizeWidth = int(imageSizeWidth * n)
